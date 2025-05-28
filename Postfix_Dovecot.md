@@ -8,7 +8,7 @@ Update the package lists and install Postfix, Dovecot, SpamAssassin, and spamc:
 
 ```shell
 sudo apt update
-sudo apt install postfix dovecot-imapd dovecot-pop3d dovecot-sievec spamassassin spamc
+sudo apt install postfix dovecot-imapd dovecot-pop3d dovecot-sievec dovecot-managesieved spamassassin spamc
 ```
 
 ## Step 2: Enable and start the SpamAssassin service
